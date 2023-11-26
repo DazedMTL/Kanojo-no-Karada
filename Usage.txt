@@ -1,0 +1,11 @@
+_Put _sce.dat or _define.dat in the input folder
+_Run the anim.exe or anim.py with cmd to dump
+_After translating run anim.exe or anim.py again to insert
+Note: Translate script.json not jp_all.txt(E.g: "「それじゃ、いくよ。綾妃」": "「Translate here.」",) 
+     I recommand remain 「」 or use “” but if you insist to use "" then put \ before them 
+     E.g:   "「それじゃ、いくよ。綾妃」": "\"Translate here.\"",
+ *@b is line breaker
+ *If there're missing texts in script.json, they could be the same word so they won't show again, instead the code will base on the first word to replace all the same word. If you need to avoid them, go to jp_all.txt and find that missing word and copy it into script.json with the same format.
+
+
+If you need to dump everything even the code(this will help when translating games from English script) then in line 177 delete “and not (buff[0] <= 'z' and buff[0] >= 'a') and not (buff[0] <= 'Z' and buff[0] >= 'A')”
