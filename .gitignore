@@ -12,6 +12,7 @@
 !*.tjs
 !./kanokiss_sce.dat
 !input/kanokiss_sce.dat
+failed.txt
 !.gitignore
 !srp.pac
 !README.md
