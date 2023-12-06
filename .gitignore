@@ -11,6 +11,7 @@
 !*.ks
 !*.tjs
 !./kanokiss_sce.dat
+!input/kanokiss_sce.dat
 !.gitignore
 !srp.pac
 !README.md
