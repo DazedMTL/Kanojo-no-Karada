@@ -10,7 +10,7 @@
 !*.csv
 !*.ks
 !*.tjs
-!kanokiss_sce.dat
+!./kanokiss_sce.dat
 !.gitignore
 !srp.pac
 !README.md
